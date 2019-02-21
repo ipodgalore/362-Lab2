@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Times New Roman', sans-serif;
+}
+h1 {
+  text-align: center;
+  font-size: 1.5em;
+  padding-bottom: 5px;
+}
+label {
+  display: inline;
+}
+body {
+  font-family: 'Times New Roman', sans-serif;
+  text-align: left;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 3em;
+}
+p {
+  padding-left: .25em;
+  padding-right: .25em;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+legend {
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+form {
+  background-color: #FF69B4;
+}
+fieldset {
+  padding: 25px;
+  padding-left: .25em;
+  padding-right: .25em;
+  padding-bottom: 25px;
+  border: 2px solid black;
+  border-color: black;
+}
+@media screen and (max-width: 960px) {
+  body {
+    font-size: 0.833em;
+    line-height: 1em;
+  }
+  fieldset {
+    border: 2px groove;
+  }
+}
